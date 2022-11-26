@@ -1,0 +1,278 @@
+:root {
+  --color-primary: #00204A;
+  --color-secondary: #005792;
+  --color-tertiary: #00BBF0;
+  --color-quaternary: #D9FAFF;
+  --color-complementary-1: #923b00;
+  --color-complementary-2: #873576;
+  --color-font: #eee;
+  --color-font-light: #666;
+}
+
+body {
+  background-image: url('../images/layered-waves-haikei.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Header */
+
+.header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background-color: var(--color-primary);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  height: 4rem;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: var(--color-quaternary);
+  font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+  color: var(--color-tertiary);
+}
+
+/* h1, h2, h3 */
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-font);
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--color-quaternary);
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: var(--color-tertiary);
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1200px;
+}
+
+.name {
+  background: linear-gradient(90deg, #0099ff, #eb5fce, #ff6600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* About */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--color-primary);
+  color: var(--color-quaternary);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.about img {
+  width: 20rem;
+  height: 20rem;
+  margin: 0 1rem;
+}
+
+/* floating animation */
+
+.floating {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Skills */
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: var(--color-primary);
+  color: var(--color-quaternary);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.skills li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+.skills li img {
+  width: 5rem;
+  height: 5rem;
+}
+
+/* Projects */
+
+/* .home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color-font);
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+}
+
+.home h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.home h1 .name {
+  background: var(--color-tertiary);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color-font);
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0 0 1rem 0;
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.about div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.about div p {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  max-width: 600px;
+}
+
+
+
+
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--color-font);
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin: 0 0 1rem 0;
+  color: var(--color-font);
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid var(--color-font-light);
+  border-radius: 5px;
+  width: 300px;
+} */
