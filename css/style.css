@@ -6,7 +6,6 @@
   --color-complementary-1: #923b00;
   --color-complementary-2: #873576;
   --color-font: #eee;
-  --color-font-light: #666;
   --color-background: #00122b;
 }
 
@@ -76,6 +75,10 @@ body {
 }
 
 .navbar ul li a:hover {
+  color: var(--color-tertiary);
+}
+
+.active {
   color: var(--color-tertiary);
 }
 
@@ -179,7 +182,6 @@ h3 {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--color-primary);
   color: var(--color-quaternary);
   padding: 1rem;
   border-radius: 1rem;
@@ -188,6 +190,11 @@ h3 {
 .skills li {
   list-style: none;
   margin: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills li:hover {
+  transform: scale(1.2);
 }
 
 .skills li img {
@@ -202,7 +209,6 @@ h3 {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--color-primary);
   color: var(--color-quaternary);
   padding: 1rem;
   border-radius: 1rem;
@@ -234,7 +240,6 @@ h3 {
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: var(--color-primary);
   color: var(--color-quaternary);
   padding: 1rem;
   margin-bottom: 1rem;
@@ -246,6 +251,7 @@ h3 {
   color: var(--color-quaternary);
   font-size: 1.2rem;
   margin: 1rem;
+  transition: transform 0.3s ease-in-out;
 }
 
 .social a:hover {
