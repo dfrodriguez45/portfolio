@@ -9,22 +9,21 @@ const contact = document.querySelector('a[href="#contact"]');
 home.addEventListener('click', function (e) {
   e.preventDefault();
   window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
+    top: 0
   });
 });
 
 about.addEventListener('click', function (e) {
   e.preventDefault();
-  document.querySelector(this.getAttribute('href')).scrollIntoView({  behavior: 'smooth' });
+  document.querySelector(this.getAttribute('href')).scrollIntoView();
 });
 
 projects.addEventListener('click', function (e) {
   e.preventDefault();
-  document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  document.querySelector(this.getAttribute('href')).scrollIntoView();
 });
 
 contact.addEventListener('click', function (e) {
   e.preventDefault();
-  document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  document.querySelector(this.getAttribute('href')).scrollIntoView();
 });
