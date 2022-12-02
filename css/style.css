@@ -187,8 +187,6 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   color: var(--color-quaternary);
-  padding: 1rem;
-  border-radius: 1rem;
 }
 
 .skills li {
@@ -214,8 +212,6 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   color: var(--color-quaternary);
-  padding: 1rem;
-  border-radius: 1rem;
 }
 
 .project {
@@ -245,9 +241,6 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   color: var(--color-quaternary);
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 1rem;
 }
 
 .social a {
