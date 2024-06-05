@@ -1,21 +1,7 @@
-import AboutMe from "./components/AboutMe/AboutMe"
-import Experience from "./components/Experience/Experience"
-import MainLayout from "./components/MainLayout/MainLayout"
-import Projects from "./components/Projects/Projects"
-import Skills from "./components/Skills/Skills"
+import Layout from "./components/Layout";
 
 function App() {
-
-  return (
-    <>
-      <MainLayout>
-        <AboutMe />
-        <Projects />
-        <Skills />
-        <Experience />
-      </MainLayout>
-    </>
-  )
+  return <Layout></Layout>;
 }
 
-export default App
+export default App;
