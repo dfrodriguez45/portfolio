@@ -142,11 +142,43 @@ function App() {
                 />
               </div>
             </li>
+            <li className="relative overflow-hidden rounded-lg">
+              <img
+                src="/projects/adeline-site.jpeg"
+                alt="centinela-universal-web"
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute flex items-center justify-between gap-2 bg-black/70 text-white font-bold bottom-10 md:bottom-14 w-full p-4">
+                <span className="md:text-lg">Adeline Salón de Belleza</span>
+                <div className="flex gap-2">
+                  <a
+                    href="https://adeline-site.web.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaExternalLinkAlt size={24} />
+                  </a>
+                </div>
+              </div>
+              <div className="flex flex-row gap-2 bg-gray-800 p-2 items-center justify-center">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg"
+                  className="size-6 md:size-10"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                  className="size-6 md:size-10"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+                  className="size-6 md:size-10"
+                />
+              </div>
+            </li>
           </ul>
         </div>
         <div className="flex flex-col gap-4 bg-white rounded-lg shadow-lg p-6 text-slate-800">
           <h2 className="text-2xl font-bold text-center">Experiencia</h2>
-          
         </div>
       </div>
     </div>
