@@ -71,7 +71,7 @@ function App() {
           <ul className="flex flex-col gap-4">
             <li className="relative overflow-hidden rounded-lg">
               <img
-                src="src\assets\projects\api-client-fortnite.jpeg"
+                src="/projects/api-client-fortnite.jpeg"
                 alt="api-client-fortnite"
                 className="w-full h-auto object-cover"
               />
@@ -111,7 +111,7 @@ function App() {
             </li>
             <li className="relative overflow-hidden rounded-lg">
               <img
-                src="src\assets\projects\centinela-universal-web.jpeg"
+                src="/projects/centinela-universal-web.jpeg"
                 alt="centinela-universal-web"
                 className="w-full h-auto object-cover"
               />
