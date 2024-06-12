@@ -158,6 +158,13 @@ function App() {
                   >
                     <FaExternalLinkAlt size={24} />
                   </a>
+                  <a
+                    href="https://github.com/dfrodriguez45/adeline-site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub size={24} />
+                  </a>
                 </div>
               </div>
               <div className="flex flex-row gap-2 bg-gray-800 p-2 items-center justify-center">
