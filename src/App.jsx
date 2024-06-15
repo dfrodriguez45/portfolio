@@ -1,9 +1,11 @@
 import { FaExternalLinkAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import Swiper styles
+
 import "swiper/css";
 import "swiper/css/pagination";
+
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -32,18 +34,7 @@ function App() {
       </div>
       <div className="grid grid-cols-2 gap-6">
         {/* About me */}
-        <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800 lg:col-span-1">
-          <h2 className="text-center text-2xl font-bold">Sobre mí</h2>
-          <p className="text-lg">
-            Soy Ingeniero en Software con una sólida formación y especialización
-            en el desarrollo web. Con experiencia en metodologías ágiles y un
-            enfoque en el desarrollo de soluciones innovadoras, disfruto
-            trabajando en proyectos que me desafían a adoptar nuevas tecnologías
-            y expandir mis habilidades. Mi capacidad para trabajar con equipos
-            multifuncionales y aplicar metodologías ágiles ha sido clave para
-            entregar soluciones eficientes y de alta calidad.
-          </p>
-        </div>
+        <AboutMe />
         {/* Skills */}
         <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800 lg:col-span-1">
           <h2 className="text-center text-2xl font-bold">Habilidades</h2>
