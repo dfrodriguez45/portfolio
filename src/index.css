@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 html {
-  @apply font-montserrat bg-gray-900 text-slate-800;
+  @apply font-montserrat bg-white text-slate-800;
+}
+
+.swiper-pagination-bullet{
+  @apply bg-orange-500;
 }
 
 @layer utilities {
