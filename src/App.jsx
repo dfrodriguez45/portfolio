@@ -213,7 +213,7 @@ function App() {
         </div>
         {/* Experience */}
         <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800">
-          <h2 className="text-2xl font-bold text-center">Experiencia</h2>
+          <h2 className="text-center text-2xl font-bold">Experiencia</h2>
         </div>
       </div>
     </div>
