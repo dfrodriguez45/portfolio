@@ -84,7 +84,7 @@ function App() {
           {/* Swiper */}
           <Swiper
             modules={[Pagination, Autoplay]}
-            direction={"horizontal"}
+            direction="horizontal"
             pagination={{
               clickable: true,
               dynamicBullets: true,
@@ -214,6 +214,34 @@ function App() {
         {/* Experience */}
         <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800">
           <h2 className="text-center text-2xl font-bold">Experiencia</h2>
+          <ul className="w-full border-l">
+            <li className="relative flex w-full flex-col items-center justify-between gap-4 rounded-lg p-6 md:flex-row">
+              <div>
+                <div className="absolute -left-1.5 top-7 size-3 rounded-full bg-gray-400 md:top-14" />
+                <h3 className="text-lg font-bold">Desarrollador Fullstack</h3>
+                <p className="font-medium italic">Perla Technology</p>
+                <p className="font-light">jul. 2022 - dic. 2023</p>
+              </div>
+              <img
+                src="experience/perla-technology.png"
+                alt="Perla Technology"
+                className="w-3/4 md:w-1/3"
+              />
+            </li>
+            <li className="relative flex w-full flex-col items-center justify-between gap-4 rounded-lg p-6 md:flex-row">
+              <div>
+                <div className="absolute -left-1.5 top-7 size-3 rounded-full bg-gray-400 md:top-14" />
+                <h3 className="text-lg font-bold">Ingeniero en Software</h3>
+                <p className="font-medium italic">SoftwareOne Colombia</p>
+                <p className="font-light">abr. 2023 - oct. 2023</p>
+              </div>
+              <img
+                src="experience/softwareone.png"
+                alt="SoftwareOne Colombia"
+                className="w-3/4 md:w-1/3"
+              />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
