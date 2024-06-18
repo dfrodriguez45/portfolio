@@ -97,7 +97,7 @@ function App() {
                 <span className="md:text-lg">Tienda de Fortnite</span>
                 <div className="flex gap-2">
                   <a
-                    href="https://api-client-fortnite.vercel.app/"
+                    href="https://fortnite-store.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
