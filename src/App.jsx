@@ -58,7 +58,7 @@ function App() {
           >
             <SwiperSlide className="relative">
               <img
-                src="/projects/api-client-fortnite.jpeg"
+                src="/projects/api-client-fortnite.webp"
                 alt="api-client-fortnite"
                 className="min-h-96 w-full object-cover"
                 width={1733}
@@ -107,7 +107,7 @@ function App() {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <img
-                src="/projects/centinela-universal-web.jpeg"
+                src="/projects/centinela-universal-web.webp"
                 alt="centinela-universal-web"
                 className="min-h-96 w-full object-cover"
                 width={1733}
@@ -149,7 +149,7 @@ function App() {
             </SwiperSlide>
             <SwiperSlide className="relative">
               <img
-                src="/projects/adeline-site.jpeg"
+                src="/projects/adeline-site.webp"
                 alt="centinela-universal-web"
                 className="min-h-96 w-full object-cover"
                 width={1733}
@@ -211,7 +211,7 @@ function App() {
                   <p className="font-light">jul. 2022 - dic. 2023</p>
                 </div>
                 <img
-                  src="experience/perla-technology.png"
+                  src="experience/perla-technology.webp"
                   alt="Perla Technology"
                   className="w-3/4 md:w-1/3"
                   width={1081}
@@ -264,7 +264,7 @@ function App() {
                   <p className="font-light">abr. 2023 - oct. 2023</p>
                 </div>
                 <img
-                  src="experience/softwareone.png"
+                  src="experience/softwareone.webp"
                   alt="SoftwareOne Colombia"
                   className="w-3/4 md:w-1/3"
                   width={1592}
@@ -312,7 +312,7 @@ function App() {
           </ul>
         </div>
         <img
-          src="footer.png"
+          src="footer.webp"
           alt="Sleeping fox"
           className="col-span-2 mx-auto w-1/2"
           width={1024}
