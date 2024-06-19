@@ -85,14 +85,17 @@ function App() {
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
                   className="size-6 md:size-10"
+                  alt="Vite.js icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
+                  alt="React icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
+                  alt="Tailwind CSS icon"
                 />
               </div>
             </SwiperSlide>
@@ -118,14 +121,17 @@ function App() {
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
                   className="size-6 md:size-10"
+                  alt="Vite.js icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
+                  alt="React icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
+                  alt="Tailwind CSS icon"
                 />
               </div>
             </SwiperSlide>
@@ -158,14 +164,17 @@ function App() {
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg"
                   className="size-6 md:size-10"
+                  alt="Astro icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
+                  alt="React icon"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
+                  alt="Tailwind CSS icon"
                 />
               </div>
             </SwiperSlide>
