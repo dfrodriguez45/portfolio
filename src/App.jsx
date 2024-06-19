@@ -61,6 +61,8 @@ function App() {
                 src="/projects/api-client-fortnite.jpeg"
                 alt="api-client-fortnite"
                 className="min-h-96 w-full object-cover"
+                width={1733}
+                height={863}
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Tienda de Fortnite</span>
@@ -104,6 +106,8 @@ function App() {
                 src="/projects/centinela-universal-web.jpeg"
                 alt="centinela-universal-web"
                 className="min-h-96 w-full object-cover"
+                width={1733}
+                height={863}
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Centinela Universal Web</span>
@@ -140,6 +144,8 @@ function App() {
                 src="/projects/adeline-site.jpeg"
                 alt="centinela-universal-web"
                 className="min-h-96 w-full object-cover"
+                width={1733}
+                height={863}
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Adeline Salón de Belleza</span>
@@ -196,6 +202,8 @@ function App() {
                   src="experience/perla-technology.png"
                   alt="Perla Technology"
                   className="w-3/4 md:w-1/3"
+                  width={1081}
+                  height={357}
                 />
               </div>
               <ul className="mt-4 list-inside list-disc">
@@ -246,6 +254,8 @@ function App() {
                   src="experience/softwareone.png"
                   alt="SoftwareOne Colombia"
                   className="w-3/4 md:w-1/3"
+                  width={1592}
+                  height={560}
                 />
               </div>
               <ul className="mt-4 list-inside list-disc">
@@ -291,6 +301,8 @@ function App() {
           src="footer.png"
           alt="Zorro durmiendo"
           className="col-span-2 mx-auto w-1/2"
+          width={1024}
+          height={1024}
         />
       </div>
     </div>
