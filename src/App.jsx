@@ -63,6 +63,7 @@ function App() {
                 className="min-h-96 w-full object-cover"
                 width={1733}
                 height={863}
+                loading="lazy"
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Tienda de Fortnite</span>
@@ -88,16 +89,19 @@ function App() {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
                   className="size-6 md:size-10"
                   alt="Vite.js icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
                   alt="React icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
                   alt="Tailwind CSS icon"
+                  loading="lazy"
                 />
               </div>
             </SwiperSlide>
@@ -108,6 +112,7 @@ function App() {
                 className="min-h-96 w-full object-cover"
                 width={1733}
                 height={863}
+                loading="lazy"
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Centinela Universal Web</span>
@@ -126,16 +131,19 @@ function App() {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
                   className="size-6 md:size-10"
                   alt="Vite.js icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
                   alt="React icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
                   alt="Tailwind CSS icon"
+                  loading="lazy"
                 />
               </div>
             </SwiperSlide>
@@ -146,6 +154,7 @@ function App() {
                 className="min-h-96 w-full object-cover"
                 width={1733}
                 height={863}
+                loading="lazy"
               />
               <div className="absolute bottom-10 flex w-full items-center justify-between gap-2 bg-black/70 p-4 font-bold text-white md:bottom-14">
                 <span className="md:text-lg">Adeline Salón de Belleza</span>
@@ -171,16 +180,19 @@ function App() {
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-original.svg"
                   className="size-6 md:size-10"
                   alt="Astro icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                   className="size-6 md:size-10"
                   alt="React icon"
+                  loading="lazy"
                 />
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
                   className="size-6 md:size-10"
                   alt="Tailwind CSS icon"
+                  loading="lazy"
                 />
               </div>
             </SwiperSlide>
@@ -204,6 +216,7 @@ function App() {
                   className="w-3/4 md:w-1/3"
                   width={1081}
                   height={357}
+                  loading="lazy"
                 />
               </div>
               <ul className="mt-4 list-inside list-disc">
@@ -256,6 +269,7 @@ function App() {
                   className="w-3/4 md:w-1/3"
                   width={1592}
                   height={560}
+                  loading="lazy"
                 />
               </div>
               <ul className="mt-4 list-inside list-disc">
@@ -299,10 +313,11 @@ function App() {
         </div>
         <img
           src="footer.png"
-          alt="Zorro durmiendo"
+          alt="Sleeping fox"
           className="col-span-2 mx-auto w-1/2"
           width={1024}
           height={1024}
+          loading="lazy"
         />
       </div>
     </div>
