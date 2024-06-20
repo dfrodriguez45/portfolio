@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
@@ -37,7 +38,7 @@ function App() {
         {/* Projects */}
         <Projects />
         {/* Experience */}
-
+        <Experience />  
         <img
           src="footer.webp"
           alt="Sleeping fox"
