@@ -1,0 +1,45 @@
+export const experiences = [
+  {
+    title: "Desarrollador Fullstack",
+    company: "Perla Technology",
+    date: "jul. 2022 - dic. 2023",
+    img: {
+      src: "experience/perla-technology.webp",
+      alt: "Perla Technology",
+      width: 1081,
+      height: 357,
+    },
+    tasks: [
+      "Participar en reuniones para discutir requisitos y progreso del proyecto.",
+      "Configurar Firebase para autenticación, base de datos y funciones en la nube.",
+      "Convertir la interfaz móvil a una aplicación web usando React.",
+      "Integrar la aplicación web con Firebase para autenticación y base de datos.",
+      "Identificar y corregir errores durante el desarrollo y las pruebas.",
+      "Desplegar la aplicación web en el servicio de hosting de Firebase.",
+      "Monitorear el rendimiento, corregir errores y mejorar la aplicación.",
+      "Escribir documentación para facilitar la comprensión y mantenimiento del código.",
+    ],
+  },
+  {
+    title: "Aprendiz Desarrollador de Software",
+    company: "SoftwareOne Colombia",
+    date: "abr. 2023 - oct. 2023",
+    img: {
+      src: "experience/softwareone.webp",
+      alt: "SoftwareOne",
+      width: 1592,
+      height: 560,
+    },
+    tasks: [
+      "Participar en reuniones diarias de Scrum para coordinar tareas.",
+      "Revisar y comprender los requisitos del cliente para los nuevos componentes.",
+      "Diseñar componentes React basados en los requisitos del cliente.",
+      "Escribir código de componentes React con reutilización.",
+      "Realizar pruebas unitarias y de integración para los nuevos componentes.",
+      "Integrar los nuevos componentes en la aplicación existente.",
+      "Revisar el código con el equipo para asegurar calidad y cumplimiento de estándares.",
+      "Desplegar y probar los componentes en un entorno de desarrollo.",
+      "Participar en reuniones de Sprint Review para presentar los avances al cliente y obtener feedback.",
+    ],
+  },
+];
