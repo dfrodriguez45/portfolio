@@ -19,8 +19,7 @@ function Projects() {
           dynamicBullets: true,
         }}
         autoplay={{
-          delay: 3000,
-          disableOnInteraction: true,
+          delay: 5000,
         }}
         className="w-full overflow-hidden rounded-lg border pb-6"
         slidesPerView={1}

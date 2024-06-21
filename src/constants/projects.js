@@ -3,20 +3,16 @@ import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 export const projects = [
   {
     img: {
-      src: "/projects/fortnite-store.webp",
-      alt: "Fortnite Store",
+      src: "/projects/centinela-universal-web.webp",
+      alt: "Centinela Universal Web",
       width: 1733,
       height: 863,
     },
-    title: "Tienda de Fortnite",
+    title: "Centinela Universal Web",
     links: [
       {
-        href: "https://fortnite-store.vercel.app/",
+        href: "https://centinela-universal-acff4.web.app/",
         icon: FaExternalLinkAlt,
-      },
-      {
-        href: "https://github.com/dfrodriguez45/fortnite-store",
-        icon: FaGithub,
       },
     ],
     technologies: [
@@ -36,16 +32,20 @@ export const projects = [
   },
   {
     img: {
-      src: "/projects/centinela-universal-web.webp",
-      alt: "Centinela Universal Web",
+      src: "/projects/fortnite-store.webp",
+      alt: "Fortnite Store",
       width: 1733,
       height: 863,
     },
-    title: "Centinela Universal Web",
+    title: "Tienda de Fortnite",
     links: [
       {
-        href: "https://centinela-universal-acff4.web.app/",
+        href: "https://fortnite-store.vercel.app/",
         icon: FaExternalLinkAlt,
+      },
+      {
+        href: "https://github.com/dfrodriguez45/fortnite-store",
+        icon: FaGithub,
       },
     ],
     technologies: [
