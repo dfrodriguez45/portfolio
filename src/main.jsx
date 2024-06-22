@@ -5,10 +5,13 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 
 import App from "./App.jsx";
 import "./index.css";
+import LanguagesProvider from "./contexts/LanguagesProvider.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <LanguagesProvider>
+      <App />
+    </LanguagesProvider>
     <Analytics />
     <SpeedInsights />
   </React.StrictMode>
