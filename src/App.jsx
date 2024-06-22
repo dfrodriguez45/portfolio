@@ -1,13 +1,24 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useContext } from "react";
+import { FaGithub, FaLanguage, FaLinkedin } from "react-icons/fa";
 
 import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import { LanguagesContext } from "./contexts/LanguagesContext";
 
 function App() {
+  const { language, handleSetLanguage } = useContext(LanguagesContext);
+
   return (
-    <div className="container mx-auto flex max-w-7xl flex-col gap-6 p-4">
+    <div className="container relative mx-auto flex max-w-7xl flex-col gap-6 p-4">
+      <button
+        type="button"
+        className="fixed bottom-4 right-4 z-50 rounded-full bg-orange-400 p-2 text-white"
+        onClick={() => handleSetLanguage(language === "en" ? "es" : "en")}
+      >
+        <FaLanguage size={32} />
+      </button>
       <h1 className="bg-gradient-to-t from-orange-500 to-orange-300 bg-clip-text p-2 text-center text-4xl font-bold text-transparent sm:text-6xl">
         Daniel Rodriguez
       </h1>
@@ -38,7 +49,7 @@ function App() {
         {/* Projects */}
         <Projects />
         {/* Experience */}
-        <Experience />  
+        <Experience />
         <img
           src="footer.webp"
           alt="Sleeping fox"

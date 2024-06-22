@@ -15,7 +15,7 @@ function Experience() {
         {experiences[language].list.map((experience, index) => {
           return (
             <li key={index} className="relative w-full p-6">
-              <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
+              <div className="flex flex-col items-start justify-between gap-4 md:flex-row">
                 <div>
                   <div className="absolute -left-1.5 top-7 size-3 rounded-full bg-gray-400 md:top-14" />
                   <h3 className="text-lg font-bold">{experience.title}</h3>
