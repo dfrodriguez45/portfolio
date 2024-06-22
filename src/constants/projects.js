@@ -8,7 +8,7 @@ export const projects = [
       width: 1733,
       height: 863,
     },
-    title: "Centinela Universal Web",
+    title: "Centinela Universal Web [⭐ DESTACADO ⭐]",
     links: [
       {
         href: "https://centinela-universal-acff4.web.app/",
