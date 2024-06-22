@@ -1,3 +1,4 @@
+import { useContext } from "react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -5,11 +6,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 import { projects } from "../../constants/projects";
+import { LanguagesContext } from "../../contexts/LanguagesContext";
 
 function Projects() {
+  const { language } = useContext(LanguagesContext);
+
   return (
     <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800">
-      <h2 className="text-center text-2xl font-bold">Proyectos</h2>
+      <h2 className="text-center text-2xl font-bold">{projects[language].title}</h2>
       {/* Swiper */}
       <Swiper
         modules={[Pagination, Autoplay]}
@@ -24,7 +28,7 @@ function Projects() {
         className="w-full overflow-hidden rounded-lg border pb-6"
         slidesPerView={1}
       >
-        {projects.map((project, index) => {
+        {projects[language].list.map((project, index) => {
           return (
             <SwiperSlide key={index} className="relative">
               <img
