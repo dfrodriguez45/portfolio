@@ -8,14 +8,15 @@ import Skills from "./components/Skills";
 import { LanguagesContext } from "./contexts/LanguagesContext";
 
 function App() {
-  const { language, handleSetLanguage } = useContext(LanguagesContext);
+  const { handleSetLanguage } = useContext(LanguagesContext);
 
   return (
     <div className="container relative mx-auto flex max-w-7xl flex-col gap-6 p-4">
       <button
         type="button"
-        className="fixed bottom-4 right-4 z-50 rounded-full bg-orange-400 p-2 text-white"
-        onClick={() => handleSetLanguage(language === "en" ? "es" : "en")}
+        title="Change language"
+        className="fixed bottom-4 right-4 z-50 rounded-full bg-orange-400 p-2 text-white md:bottom-8 md:right-8"
+        onClick={handleSetLanguage}
       >
         <FaLanguage size={32} />
       </button>

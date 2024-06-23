@@ -6,8 +6,8 @@ import { LanguagesContext } from "./LanguagesContext";
 function LanguagesProvider({ children }) {
   const [language, setLanguage] = useState("es");
 
-  function handleSetLanguage(newLanguage) {
-    setLanguage(newLanguage);
+  function handleSetLanguage() {
+    setLanguage((prevLanguage) => (prevLanguage === "es" ? "en" : "es"));
   }
 
   return (
