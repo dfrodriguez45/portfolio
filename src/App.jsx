@@ -11,7 +11,7 @@ function App() {
   const { handleSetLanguage } = useContext(LanguagesContext);
 
   return (
-    <div className="container relative mx-auto flex max-w-7xl flex-col gap-6 p-4">
+    <div className="container relative mx-auto flex max-w-7xl animate-slide-in flex-col gap-6 p-4 opacity-0">
       <button
         type="button"
         title="Change language"
