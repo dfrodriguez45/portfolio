@@ -12,8 +12,10 @@ function Projects() {
   const { language } = useContext(LanguagesContext);
 
   return (
-    <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800">
-      <h2 className="text-center text-2xl font-bold">{projects[language].title}</h2>
+    <div className="col-span-2 flex flex-col gap-4 rounded-lg p-6 text-slate-800 dark:text-white">
+      <h2 className="text-center text-2xl font-bold">
+        {projects[language].title}
+      </h2>
       {/* Swiper */}
       <Swiper
         modules={[Pagination, Autoplay]}
@@ -25,7 +27,7 @@ function Projects() {
         autoplay={{
           delay: 5000,
         }}
-        className="w-full overflow-hidden rounded-lg border pb-6"
+        className="w-full overflow-hidden rounded-lg border pb-6 dark:border-slate-600"
         slidesPerView={1}
       >
         {projects[language].list.map((project, index) => {
