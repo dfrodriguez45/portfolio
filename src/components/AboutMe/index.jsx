@@ -7,7 +7,7 @@ function AboutMe() {
   const { language } = useContext(LanguagesContext);
 
   return (
-    <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800 lg:col-span-1">
+    <div className="col-span-2 flex flex-col gap-4 rounded-lg p-6 text-slate-800 lg:col-span-1 dark:text-white">
       <h2 className="text-center text-2xl font-bold">
         {aboutMe[language].title}
       </h2>

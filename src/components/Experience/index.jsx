@@ -7,7 +7,7 @@ function Experience() {
   const { language } = useContext(LanguagesContext);
 
   return (
-    <div className="col-span-2 flex flex-col gap-4 rounded-lg bg-white p-6 text-slate-800">
+    <div className="col-span-2 flex flex-col gap-4 rounded-lg p-6 text-slate-800 dark:text-white">
       <h2 className="text-center text-2xl font-bold">
         {experiences[language].title}
       </h2>
