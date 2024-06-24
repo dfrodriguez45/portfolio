@@ -20,11 +20,11 @@ function App() {
       >
         <FaLanguage size={32} />
       </button>
-      <h1 className="bg-gradient-to-t from-orange-500 to-orange-300 bg-clip-text p-2 text-center text-4xl font-bold text-transparent sm:text-6xl dark:from-blue-500 dark:to-blue-700">
+      <h1 className="animate-slide-in bg-gradient-to-t from-orange-500 to-orange-300 bg-clip-text p-2 text-center text-4xl font-bold text-transparent opacity-0 sm:text-6xl dark:from-blue-500 dark:to-blue-700">
         Daniel Rodriguez
       </h1>
       {/* Social networks */}
-      <div className="flex flex-row items-center justify-center gap-4">
+      <div className="flex animate-slide-in flex-row items-center justify-center gap-4 opacity-0">
         <a
           className="flex items-center justify-center rounded-full border p-2 text-orange-500 dark:border-slate-600 dark:text-blue-500"
           href="https://www.linkedin.com/in/dfrodriguez45/"
@@ -42,7 +42,7 @@ function App() {
           <FaGithub size={28} />
         </a>
       </div>
-      <div className="grid grid-cols-2 gap-6">
+      <div className="grid animate-slide-in grid-cols-2 gap-6 opacity-0">
         {/* About me */}
         <AboutMe />
         {/* Skills */}
