@@ -14,7 +14,7 @@ function App() {
     <div className="container relative mx-auto flex max-w-7xl flex-col gap-6 p-4">
       <button
         type="button"
-        title="Change language"
+        // title="Change language"
         className="fixed bottom-4 right-4 z-50 rounded-full bg-orange-500 p-2 text-white md:bottom-8 md:right-8 dark:bg-blue-500"
         onClick={handleSetLanguage}
       >
