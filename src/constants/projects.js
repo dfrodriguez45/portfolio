@@ -6,12 +6,41 @@ export const projects = {
     list: [
       {
         img: {
+          src: "/projects/mi-bolsillito.webp",
+          alt: "Mi Bolsillito",
+          width: 1733,
+          height: 863,
+        },
+        title: "Mi Bolsillito",
+        links: [
+          {
+            href: "https://mi-bolsillito.vercel.app/",
+            icon: FaExternalLinkAlt,
+          },
+        ],
+        technologies: [
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            alt: "Next.js icon",
+          },
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            alt: "React icon",
+          },
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            alt: "Tailwind CSS icon",
+          },
+        ],
+      },
+      {
+        img: {
           src: "/projects/centinela-universal-web.webp",
           alt: "Centinela Universal Web",
           width: 1733,
           height: 863,
         },
-        title: "Centinela Universal Web [⭐ DESTACADO ⭐]",
+        title: "Centinela Universal Web",
         links: [
           {
             href: "https://centinela-universal-acff4.web.app/",
@@ -106,12 +135,41 @@ export const projects = {
     list: [
       {
         img: {
+          src: "/projects/mi-bolsillito.webp",
+          alt: "Mi Bolsillito",
+          width: 1733,
+          height: 863,
+        },
+        title: "Mi Bolsillito",
+        links: [
+          {
+            href: "https://mi-bolsillito.vercel.app/",
+            icon: FaExternalLinkAlt,
+          },
+        ],
+        technologies: [
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+            alt: "Next.js icon",
+          },
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+            alt: "React icon",
+          },
+          {
+            icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+            alt: "Tailwind CSS icon",
+          },
+        ],
+      },
+      {
+        img: {
           src: "/projects/centinela-universal-web.webp",
           alt: "Centinela Universal Web",
           width: 1733,
           height: 863,
         },
-        title: "Centinela Universal Web [⭐ FEATURED ⭐]",
+        title: "Centinela Universal Web",
         links: [
           {
             href: "https://centinela-universal-acff4.web.app/",

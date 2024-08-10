@@ -36,7 +36,7 @@ function Projects() {
               <img
                 src={project.img.src}
                 alt={project.img.alt}
-                className="min-h-96 w-full object-cover"
+                className="max-h-[600px] min-h-96 w-full object-cover"
                 width={project.img.width}
                 height={project.img.height}
                 loading="lazy"

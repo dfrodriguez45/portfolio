@@ -15,6 +15,10 @@ export const skills = {
         alt: "JavaScript icon",
       },
       {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        alt: "TypeScript icon",
+      },
+      {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         alt: "React icon",
       },
@@ -29,6 +33,10 @@ export const skills = {
       {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
         alt: "MySQL icon",
+      },
+      {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        alt: "Tailwind CSS icon",
       },
     ],
   },
@@ -48,6 +56,10 @@ export const skills = {
         alt: "JavaScript icon",
       },
       {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        alt: "TypeScript icon",
+      },
+      {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         alt: "React icon",
       },
@@ -62,6 +74,10 @@ export const skills = {
       {
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
         alt: "MySQL icon",
+      },
+      {
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        alt: "Tailwind CSS icon",
       },
     ],
   },
